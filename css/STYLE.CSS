@@ -5640,7 +5640,12 @@ footer {
 }
 
 .signCard_body form .form-group label{
-	margin-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.signCard_body form .form-group{
+	
+	margin-bottom: 10px !important;
 }
 .signCard_body form .form-group label , .signCard_body form .form-group .descHlep{
 	
@@ -5674,6 +5679,7 @@ footer {
 	position: relative;
   cursor: pointer;
 	margin-bottom: 0px;
+	
 }
 .signCard_body form .form-group  .formCheck-label::before{
 	content:'';
@@ -5753,9 +5759,16 @@ footer {
 
 .signCard_body form .form-group #phone{
 	
-	text-align: right;
 	direction: ltr;
 	font-family: none;
+}
+
+.signCard_body form .form-group .iti{
+	display: block;
+}
+.signCard_body form .form-group  .iti__flag-container{
+	
+	direction: ltr;
 }
 .signCard_body form .form-group .iti--separate-dial-code .iti__selected-flag {
 	
@@ -5793,9 +5806,11 @@ footer {
 	font-family: 'none';
 	
 }
+
+
 .signUp-area #iti-0__country-listbox::-webkit-scrollbar,
 .iti-mobile .iti__country-list::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
   background: #0d141f;
 }
 

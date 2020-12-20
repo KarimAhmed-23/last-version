@@ -122,17 +122,17 @@
 							<div class="signCard_body">
 								<form action="#" method="get" id="signUp-form">
 								
-									<div class="form-group mb-3">
+									<div class="form-group">
 									
 									<label for="exampleInputshopName">اسم المتجر</label>
 									<input type="text"  placeholder="اسم علامتك التجارية" name="shop-name" id="exampleInputshopName" class="form-control" autofocus>	
 									
 									</div>
-									<div class="form-group mb-3">
+									<div class="form-group">
 									
 										
 										<label for="store_link">رابط المتجر</label>
-										<div class="input-group mb-3">
+										<div class="input-group">
 											
 											<input type="text" class="form-control" id="store_link" aria-describedby="store-link" placeholder="اسم متجرك باللغةالإنجليزية">
 											<div class="input-group-prepend">
@@ -154,7 +154,7 @@
 									
 										<div class="col-sm-12 col-md-6">
 										
-											<div class="form-group mb-3">
+											<div class="form-group">
 											
 												<label for="admin-name">اسم المدير</label>
 												<input  type="text" class="form-control" name="name" id="admin-name" placeholder="احمد صالح احمد" >
@@ -163,7 +163,7 @@
 										</div>
 										<div class="col-sm-12 col-md-6">
 											
-											<div class="form-group mb-3">
+											<div class="form-group">
 											
 												<label for="phone">رقم الجوال</label>
 												<input id="phone" type="tel" class="form-control"  name="phone">
@@ -187,7 +187,7 @@
 										</div>
 										<div class="col-sm-12 col-md-6">
 											
-											<div class="form-group mb-3">
+											<div class="form-group">
 											
 												<label for="exampleInputEmail1">البريد الإلكتروني </label>
 												<input  type="text" class="form-control" name="email" id="exampleInputEmail1" placeholder="احمد صالح احمد" >
@@ -203,9 +203,9 @@
 											</div>
 											
 										</div>	
-										<div class="col-12 mt-3">
+										<div class="col-12">
 											
-												  <div class="form-group mb-3">
+												  <div class="form-group ">
 													  
 														 <input class="formCheck-input" type="checkbox" id="check-condition">
 														 <label class="formCheck-label" for="check-condition">أنا اوافق على سياسة الخصوصية و شروط الإستخدام .</label>
@@ -407,12 +407,12 @@
 <script src="js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" integrity="sha512-DNeDhsl+FWnx5B1EQzsayHMyP6Xl/Mg+vcnFPXGNjUZrW28hQaa1+A4qL9M+AiOMmkAhKAWYHh1a+t6qxthzUw==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.min.js" integrity="sha512-ufUV+vuYIp8gMzUa1sHW3K1BKQjNtUEM9y4icCXB4gPObPQXVyn4bpmVNDbmuWBgcJ3nlNoCBG/ZPn5GIAPuvA==" crossorigin="anonymous"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput-jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
 <script>
 	
-	const input = document.querySelector("#phone");
-	intlTelInput(input, {
+		$("#phone").intlTelInput({
+
 	
 		// allowDropdown: false,
 		// dropdownContainer: document.body,

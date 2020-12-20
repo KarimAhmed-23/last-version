@@ -317,6 +317,7 @@ $('.slick-blog-item').slick({
 */
 	
 	
+	
 	$('.sign-slider').slick({
   		slidesToShow: 1,
   		slidesToScroll: 1,
@@ -327,7 +328,7 @@ $('.slick-blog-item').slick({
     	accessibility: true,
 		speed: 500,
 		autoplay: true,
-		autoplaySpeed: 2500,
+		autoplaySpeed: 5000,
 	
 	});
 	
