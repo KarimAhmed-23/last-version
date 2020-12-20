@@ -1,0 +1,2585 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#EA952E">
+	
+    <title>الإبداع للإدارة السحابية</title>
+	
+    <link rel="stylesheet" type="text/css" href="css/vendors/Bootstrap/bootstrap.min.css">
+    <link href="css/plugins/navigation.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+
+    <!-- اسكربت التعديلات-->
+	
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/STYLE.CSS">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cairo'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Tajawal'>
+    <link rel="stylesheet" href="css/fonts/stylesheet.css">
+	
+    <!-- اسكربت التعديلات-->
+
+
+    <!--Styles for RTL-->
+
+    <link rel="stylesheet" type="text/css" href="css/rtl.min.css">
+	
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+
+    <div id="hellopreloader">
+        <div class="preloader">
+            <svg width="58" height="58" viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(2 1)" stroke="#FFF" stroke-width="1.5">
+                        <circle cx="42.601" cy="11.462" r="5" fill-opacity="1" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="1;0;0;0;0;0;0;0"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="49.063" cy="27.063" r="5" fill-opacity="0" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;1;0;0;0;0;0;0"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="42.601" cy="42.663" r="5" fill-opacity="0" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;1;0;0;0;0;0"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="27" cy="49.125" r="5" fill-opacity="0" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;1;0;0;0;0"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="11.399" cy="42.663" r="5" fill-opacity="0" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;1;0;0;0"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="4.938" cy="27.063" r="5" fill-opacity="0" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;0;1;0;0"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="11.399" cy="11.462" r="5" fill-opacity="0" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;0;0;1;0"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="27" cy="5" r="5" fill-opacity="0" fill="#fff">
+                            <animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;0;0;0;1"
+                                calcMode="linear" repeatCount="indefinite" />
+                        </circle>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+    <!-- ... end Preloader -->
+
+
+    <!-- Main Header -->
+
+    <nav id="navigation" class="site-header navigation navigation-justified header--sticky" style="direction: rtl">
+        <div class="container">
+            <div class="navigation-header">
+
+
+
+                <div class="navigation-logo">
+                    <a href="index.html">
+
+
+                        <img loading="lazy" src="img/logo-1.svg" alt="logo">
+
+
+                    </a>
+                </div>
+                <div class="navigation-button-toggler">
+                    <i class="hamburger-icon"></i>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="navigation-body">
+                <div class="navigation-body-header">
+                    <div class="navigation-logo">
+
+
+
+                        <a class="logo-img" href="index.html">
+
+
+                            <img loading="lazy" src="img/logo-1.svg" alt="logo">
+
+                        </a>
+
+
+
+                        <div class=" login-link">
+
+
+                            
+							
+							<div class="user-img">
+                            <img src="img/user-img-man.svg">
+							</div>
+							
+                            <a href="#" data-toggle="modal" data-target="#userMenuPopup">الدخول أو التسجيل من هنا </a>
+                        </div>
+
+
+
+
+                    </div>
+                    <span class="navigation-body-close-button">✕</span>
+					<span class="welcome-text">يا هلا والله </span>
+                </div>
+
+
+
+                <ul class="navigation-menu">
+                    <li class="navigation-item is-active">
+                        <a class="navigation-link" href="#">الرئيسية </a>
+                        <div class="navigation-megamenu">
+                            <div class="navigation-megamenu-container">
+                                <div class="navigation-row">
+                                    <div class="navigation-col">
+                                        <a href="02_wp_host.html" class="navigation-hosting-item border-primary-themes">
+
+
+                                            <img class="navigation-hosting-item-img " loading="lazy"
+                                                src="img/demo-content/navigation-hostings/hosting1.png" alt="hosting">
+                                            استضافة ووردبريس
+                                        </a>
+                                    </div>
+                                    <div class="navigation-col">
+                                        <a href="03_shared_host.html" class="navigation-hosting-item border-red-themes">
+
+
+                                            <img class="navigation-hosting-item-img " loading="lazy"
+                                                src="img/demo-content/navigation-hostings/hosting2.png" alt="hosting">
+                                            الاستضافة المشتركة
+                                        </a>
+                                    </div>
+                                    <div class="navigation-col">
+                                        <a href="04_vps_host.html" class="navigation-hosting-item border-orange-themes">
+
+
+                                            <img class="navigation-hosting-item-img " loading="lazy"
+                                                src="img/demo-content/navigation-hostings/hosting3.png" alt="hosting">
+
+                                            استضافة VPS
+                                        </a>
+                                    </div>
+                                    <div class="navigation-col">
+                                        <a href="05_dedicated_server.html"
+                                            class="navigation-hosting-item border-yellow-themes">
+
+
+                                            <img class="navigation-hosting-item-img " loading="lazy"
+                                                src="img/demo-content/navigation-hostings/hosting4.png" alt="hosting">
+
+                                            خادم مخصص
+                                        </a>
+                                    </div>
+                                    <div class="navigation-col">
+                                        <a href="06_cloud_hosting.html"
+                                            class="navigation-hosting-item border-blue-themes">
+
+
+                                            <img class="navigation-hosting-item-img " loading="lazy"
+                                                src="img/demo-content/navigation-hostings/hosting5.png" alt="hosting">
+
+                                            سحابة استضافة
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#">الأسعار </a>
+
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#">مجالات العمل</a>
+
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#">
+                            شركاؤنا
+                        </a>
+
+                    </li>
+
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="15_blog.html">المدونة</a>
+                    </li>
+
+
+                    <li class="navigation-item" id="conutry">
+                        <a class="navigation-link position-relative" href="#" tabindex="-1">
+                            <i class="fas fa-globe ml-2"></i>
+                            أختر الدولة
+
+                        </a>
+
+                        <ul class="navigation-dropdown">
+                            <li class="navigation-dropdown-item">
+
+                                <a class="navigation-dropdown-link" href="#">
+                                    <img src="img/saudi-arabia.svg" width="30px" height="30px">
+
+                                    <span class="mr-2">السعودية</span>
+
+                                </a>
+
+                            </li>
+                            <li class="navigation-dropdown-item">
+
+                                <a class="navigation-dropdown-link" href="#">
+
+                                    <img src="img/bahrain.svg" width="30px" height="30px">
+
+                                    <span class="mr-2">البحرين </span>
+
+                                </a>
+
+                            </li>
+
+
+                        </ul>
+
+
+                    </li>
+
+
+                    <li class="navigation-item" id="lang">
+                        <a class="navigation-link" href="15_blog.html">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <circle style="fill:#F0F0F0;" cx="256" cy="256" r="256" />
+                                <g>
+                                    <path style="fill:#0052B4;"
+                                        d="M52.92,100.142c-20.109,26.163-35.272,56.318-44.101,89.077h133.178L52.92,100.142z" />
+                                    <path style="fill:#0052B4;"
+                                        d="M503.181,189.219c-8.829-32.758-23.993-62.913-44.101-89.076l-89.075,89.076H503.181z" />
+                                    <path style="fill:#0052B4;" d="M8.819,322.784c8.83,32.758,23.993,62.913,44.101,89.075l89.074-89.075L8.819,322.784L8.819,322.784z" />
+                                    <path style="fill:#0052B4;"
+                                        d="M411.858,52.921c-26.163-20.109-56.317-35.272-89.076-44.102v133.177L411.858,52.921z" />
+                                    <path style="fill:#0052B4;"
+                                        d="M100.142,459.079c26.163,20.109,56.318,35.272,89.076,44.102V370.005L100.142,459.079z" />
+                                    <path style="fill:#0052B4;"
+                                        d="M189.217,8.819c-32.758,8.83-62.913,23.993-89.075,44.101l89.075,89.075V8.819z" />
+                                    <path style="fill:#0052B4;"
+                                        d="M322.783,503.181c32.758-8.83,62.913-23.993,89.075-44.101l-89.075-89.075V503.181z" />
+                                    <path style="fill:#0052B4;"
+                                        d="M370.005,322.784l89.075,89.076c20.108-26.162,35.272-56.318,44.101-89.076H370.005z" />
+                                </g>
+                                <g>
+                                    <path style="fill:#D80027;" d="M509.833,222.609h-220.44h-0.001V2.167C278.461,0.744,267.317,0,256,0
+									c-11.319,0-22.461,0.744-33.391,2.167v220.44v0.001H2.167C0.744,233.539,0,244.683,0,256c0,11.319,0.744,22.461,2.167,33.391
+									h220.44h0.001v220.442C233.539,511.256,244.681,512,256,512c11.317,0,22.461-0.743,33.391-2.167v-220.44v-0.001h220.442
+									C511.256,278.461,512,267.319,512,256C512,244.683,511.256,233.539,509.833,222.609z" />
+                                    <path style="fill:#D80027;" d="M322.783,322.784L322.783,322.784L437.019,437.02c5.254-5.252,10.266-10.743,15.048-16.435
+									l-97.802-97.802h-31.482V322.784z" />
+                                    <path style="fill:#D80027;" d="M189.217,322.784h-0.002L74.98,437.019c5.252,5.254,10.743,10.266,16.435,15.048l97.802-97.804
+									V322.784z" />
+                                    <path style="fill:#D80027;" d="M189.217,189.219v-0.002L74.981,74.98c-5.254,5.252-10.266,10.743-15.048,16.435l97.803,97.803
+									H189.217z" />
+                                    <path style="fill:#D80027;" d="M322.783,189.219L322.783,189.219L437.02,74.981c-5.252-5.254-10.743-10.266-16.435-15.047
+									l-97.802,97.803V189.219z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+
+                            English
+                        </a>
+                    </li>
+
+
+
+                    <li class="navigation-item login_btn  " style="padding: 0px 13px;margin: auto">
+                        <a class=" login_link" data-toggle="modal" data-target="#userMenuPopup">تسجيل دخول</a>
+                    </li>
+
+                    <li class="navigation-item join-btn">
+                        <a class="navigation-link tooltip" style="cursor: pointer">
+                            <span style="
+                      margin: 8px 0px 0px -9px;
+                      font-size: 16px;
+                      font-weight: bold;
+                        color: #fff;">+</span>
+                            <img src="img/Asset%2018.svg" width="25px" height="25px">
+                            <span class="tooltiptext">أنضم لنا</span>
+
+                        </a>
+                    </li>
+
+
+                </ul>
+                <div class="navigation-body-section navigation-additional-menu mr-3">
+
+                    <div class="navigation-search">
+                        <div class="link-modal-popup" data-toggle="modal" data-target="#popupSearch"></div>
+                        <svg class="crumina-icon">
+                            <use xlink:href="#icon-search"></use>
+                        </svg>
+                    </div>
+
+                    <div class="language">
+
+                        <div>
+                            <img src="img/saudi-arabia.svg" width="30px" height="30px">
+
+                            <div class="dropdown-conutry">
+
+                                <a href="#"><img src="img/saudi-arabia.svg" width="30px" height="30px">
+
+                                    <span>السعودية</span>
+
+                                </a>
+                                <a href="#"><img src="img/bahrain.svg" width="30px" height="30px">
+
+                                    <span>البحرين </span>
+
+                                </a>
+
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="mr-2">
+                            | EN
+
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="cart-icon" style="color: #ea952e ;cursor: pointer">
+
+                        <img src="img/cart.svg" width="35px" height="35px">
+
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ... end Main Header -->
+
+
+    <!-- Popup Search -->
+
+    <div class="modal fade window-popup popup-search" id="popupSearch" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="modal-close-btn-wrapper">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"></button>
+                                    <svg class="crumina-icon">
+                                        <use xlink:href="#icon-close"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="navigation-search-popup">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 m-auto">
+                                    <h2 class="fw-medium text-white">عما تبحث؟</h2>
+                                    <form class="search-popup-form">
+                                        <div class="input-btn--inline" style="direction: rtl">
+                                            <input class="input--dark" type="text"
+                                                placeholder="اختر عنوان الويب الجديد ...">
+                                            <button type="button" class="crumina-button button--primary button--l"
+                                                style="left: -1px;right: auto;background-color:#EA952E;border-color: #EA952E">SEARCH</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ... end Popup Search -->
+
+
+    <!-- User Menu Popup -->
+
+    <div class="modal fade window-popup user-menu-popup" id="userMenuPopup" tabindex="-1" role="dialog"
+        aria-hidden="true" style="direction: rtl;font-family: 29lt_bukrabold_italic">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="modal-close-btn-wrapper">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"></button>
+                                    <svg class="crumina-icon">
+                                        <use xlink:href="#icon-close"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="user-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-auto">
+                                    <a href="index.html" class="site-logo">
+
+
+                                        <img loading="lazy" src="img/logo-1.svg" alt="logo" class="ml-1">
+                                    </a>
+
+                                    <form class="sign-in-form">
+                                        <h6 class="text-white">تسجيل الدخول إلى حسابك</h6>
+                                        <div class="form-item">
+                                            <input class="input--dark input--squared" type="text"
+                                                placeholder="اسم المستخدم أو البريد الالكتروني">
+                                        </div>
+                                        <div class="form-item">
+                                            <input class="input--dark input--squared" type="password"
+                                                placeholder="كلمه السر">
+                                        </div>
+                                        <div class="form-item">
+                                            <div class="remember-wrapper text-white">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="optionsCheckboxes4">
+
+                                                        تذكرنى
+                                                    </label>
+                                                </div>
+                                                <a href="#">هل نسيت كلمة السر ؟</a>
+                                            </div>
+                                        </div>
+                                        <div class="form-item">
+                                            <button type="button"
+                                                class="crumina-button button--primary button--l w-100">تسجيل
+                                                الدخول</button>
+                                        </div>
+                                    </form>
+
+                                    <p class="text-white fw-medium">تسجيل الدخول عن طريق السوشيال ميديا:</p>
+                                    <ul class="socials">
+
+
+                                        <li>
+                                            <a href="#">
+
+
+                                                <img class="crumina-icon " loading="lazy"
+                                                    src="img/theme-content/social-icons/google.png" alt="google">
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+
+
+                                                <img class="crumina-icon " loading="lazy"
+                                                    src="img/theme-content/social-icons/twitter.png" alt="twitter">
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+
+
+                                                <img class="crumina-icon " loading="lazy"
+                                                    src="img/theme-content/social-icons/facebook.png" alt="facebook">
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <button type="button"
+                                        class="crumina-button button--grey button--l button--bordered w-100">انشئ
+                                        حساب</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ... end User Menu Popup -->
+     
+	
+	<!-- start main-content-wrapper -->
+
+    <div class="main-content-wrapper">
+		
+		<div class="agreement-bg" style="background-image: url(img/stock-market-forex-trading-graph-candlestick-chart-suitable-financial-investment-concept-coins.jpg)"></div>
+		
+		<nav aria-label="breadcrumb">
+  				<ul class="breadcrumb">
+    				<li class="breadcrumb-item">
+						
+						<a href="index.html">
+						
+							<img class="ml-2" src="img/Asset%206.svg">
+							الرئيسية 
+						
+						
+						</a>
+					
+					</li>
+					<li class="breadcrumb-item" aria-current="page">  >  الباقات والاسعار </li>
+  				</ul>
+			</nav>
+		    
+		<section class="packages-prices-table">
+		
+			
+			<div class="container">
+		
+		
+	        <h5>الباقات والأسعار</h5>
+			<div class="fusion-table-1">
+			
+			<table class="prices-table">
+			
+				<thead class="main-head">
+				
+				
+					<tr>
+					
+						<th class="packages-count">
+						
+						<div class="countprice ">
+							
+							<div class="countprice-text">
+							
+							
+								<p>المستخدمين</p>
+								<p>استخدام كافة التطبيقات</p>
+							
+							</div>
+							
+							<form id="counter-form" action="#">
+							
+								<input type="button" value="+" class="qtyplus accounts-price">
+								<input type="button" value="-" class="qtyminus accounts-price">
+								<input type="text" name="quantity"  id="box_value_1" value="3" class="qty check-number" data-min="3" data-max="300">
+							
+							</form>
+							
+							
+							</div>
+						<div class="countprice ">
+							
+							<div class="countprice-text">
+							
+							
+								<p>الموظفين </p>
+								<p>في معالج تجهيزالرواتب</p>
+							
+							</div>
+							
+							<form id="counter-form" action="#">
+							
+								<input type="button" value="+" class="qtyplus erp-price">
+								<input type="button" value="-" class="qtyminus erp-price">
+								<input type="text" name="quantity" id="box_value_1" value="3" class="qty check-number" data-min="3" data-max="300">
+							
+							</form>
+							
+							
+							</div>
+						<div class="countprice ">
+							
+							<div class="countprice-text">
+							
+							
+								<p>موظفين الخدمة الذاتية</p>
+								<p>
+									 القدرة على الوصول لنماذج وخدمات
+									<br>
+									الموارد البشرية والشؤون الإدارية فقط		
+								</p>
+							
+							</div>
+							
+							<form id="counter-form" action="#">
+							
+								<input type="button" value="+" class="qtyplus enterprise-price">
+								<input type="button" value="-" class="qtyminus enterprise-price">
+								<input type="text" name="quantity" id="box_value_1" value="3" class="qty check-number" data-min="3" data-max="300">
+							
+							</form>
+							
+							
+							</div>
+						
+						
+						
+						</th>
+						<th class="packages-tables p-0">
+						
+							 <h6 class="packages-tables-name">الميديم</h6>
+							<div class="packages-tables-price">
+							
+								 <p class="mb-3">
+								
+								<span class="price-change">1188 ر.س</span> 
+								<span>إشتراك سنوي</span>
+							 </p>
+							     <p class="mb-3">
+							
+								<span class="price-change">99 ر.س</span>
+								<span>إشتراك شهري</span>
+							 </p>
+								 <a href="buy.html">أشترك الأن</a>
+							
+							</div>
+							
+						
+						</th>
+						<th class="packages-tables p-0">
+						
+							 <h6 class="packages-tables-name">كلاس   </h6>
+							<div class="packages-tables-price ">
+							
+								 <p class="mb-3">
+								
+								 <span class="price-change">2388 ر.س</span> 
+								<span>إشتراك سنوي</span>
+							 </p>
+							     <p class="mb-3">
+							
+								<span class="price-change">199 ر.س</span>
+								<span>إشتراك شهري</span>
+							 </p>
+								 <a href="buy.html">أشترك الأن</a>
+							
+							</div>
+							
+						
+						</th>
+						<th class="packages-tables p-0">
+						
+							 <h6 class="packages-tables-name">برو </h6>
+							<div class="packages-tables-price">
+							
+								 <p class="mb-3">
+								
+								 <span class="price-change">3588 ر.س</span>
+								<span>إشتراك سنوي</span>
+							 </p>
+							     <p class="mb-3">
+							
+								<span class="price-change">299 ر.س</span>
+								<span>إشتراك شهري</span>
+							 </p>
+								 <a href="buy.html">أشترك الأن</a>
+							
+							</div>
+							
+						
+						</th>
+						<th class="packages-tables p-0">
+						
+							 <h6 class="packages-tables-name">بريميوم    </h6>
+							<div class="packages-tables-price ">
+							
+								 <p class="mb-3">
+								
+								 <span class="price-change">5988  ر.س</span>
+								<span>إشتراك سنوي</span>
+							 </p>
+							     <p class="mb-3">
+							
+								<span class="price-change">499 ر.س</span>
+								<span>إشتراك شهري</span>
+							 </p>
+								 <a href="buy.html">أشترك الأن</a>
+							
+							</div>
+							
+						
+						</th>
+						
+						
+					</tr>
+				
+				
+				
+				</thead>
+				<thead class="fixed-scroll-head">
+					
+						<tr>
+					
+						<th class="packages-count"></th>
+						<th class="packages-tables p-0">
+						
+							<h6 class="packages-tables-name">الميديم</h6>
+							
+						</th>
+						<th class="packages-tables p-0">
+						
+							 <h6 class="packages-tables-name">كلاس   </h6>
+							
+						
+						</th>
+						<th class="packages-tables p-0">
+						
+							 <h6 class="packages-tables-name">برو </h6>
+							
+						</th>
+						<th class="packages-tables p-0">
+						
+							 <h6 class="packages-tables-name">بريميوم    </h6>
+					
+						</th>
+						
+						
+					</tr>
+				
+					
+				</thead>
+				<tbody class="main-body">
+				
+				
+					<tr>
+						
+						<td class="packages-advantage-title">
+						
+						<p class="mb-0">المزايا القياسية في كل باقة</p>	
+						
+						</td>
+						
+					</tr>
+					
+					<tr>
+					
+						<td class="packages-advantage">
+						    
+							<div class="more-advantage-btn">
+							
+								<a data-toggle="modal" data-target="#more-advantage-1">
+								
+									<i class="fas fa-plus"></i>
+								</a>
+							
+							</div>
+							<p class="mb-0">التحكم والإدارة عبر الويب والتطبيقات الجوال </p>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+					
+					
+					</tr>
+					<tr>
+					
+						<td class="packages-advantage">
+							
+							<div class="more-advantage-btn">
+							
+								<a data-toggle="modal" data-target="#more-advantage-2">
+								
+									<i class="fas fa-plus"></i>
+								</a>
+							
+							</div>
+							<p class="mb-0">مزايا أرشفة المستندات </p>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+					
+					
+					</tr>
+					<tr>
+					
+						<td class="packages-advantage">
+						
+							<p class="mb-0">مشاركة المفكرة مع الموظفين  </p>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+					
+					
+					</tr>
+					<tr>
+					
+						<td class="packages-advantage">
+						
+							<p class="mb-0">البريد الإلكتروني الداخلي  </p>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>	
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+					
+					
+					</tr>
+					<tr class="bb">
+					
+						<td class="packages-advantage">
+						
+							<p class="mb-0">المحادثات الفورية  </p>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+					
+					
+					</tr>
+					<tr>
+					
+						<td class="packages-advantage">
+						
+							<p class="mb-0">مكتبة ربط API </p>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+					
+					
+					</tr>
+					<tr>
+					
+						<td class="packages-advantage">
+						
+							<p class="mb-0">المفضلة لمعاملات المهام </p>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-times" style="color: #E71C24"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+						<td class="advantage-check">
+						
+						
+							<i class="fas fa-check"></i>
+						
+						</td>
+					
+					
+					</tr>
+				
+				
+				
+				</tbody>
+			
+			
+			
+			
+			</table>
+			
+			</div>
+			
+		
+		</div>
+		
+		
+		</section>
+		
+		<section class="start-with-us" style="background-color: #1A233A">
+		
+			<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-3 mb-md-0">
+				
+				
+					<div class="start-with-us-text text-center">
+					
+					<h6 style="color: #E8932E">إبدا معنا وحقق أرباحك !</h6>
+					<p>لست بحاجة لرأس مال ، كل ما هو عليك الاشتراك  <br> والتسويق عبر منصات التواصل الاجتماعي ..</p>	
+					
+					</div>
+				
+				
+				</div>
+				<div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+				
+				<div class="start-with-us-link">
+					
+					<a href="#" style="background-color: #E8932E;color: #fff">اشترك الأن</a>
+					
+					</div>
+				
+				</div>
+				
+				</div>
+			
+			</div>
+		
+			
+			
+		</section>
+		
+		 <section class="payment-ways">
+
+            <div class="container">
+
+                <div class="row" style="background-color: #fff">
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-1.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-2.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-3.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment_2.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment_4.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-4.svg">
+                    </div>
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-5.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-8.svg">
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+		
+		
+    </div>
+	
+	<!-- ... end main-content-wrapper -->
+
+
+	<!-- Footer -->
+
+	<footer>
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md">
+
+						<div class="footer-menu">
+
+							<h5 class="main-title"> قلاي الإبداع لللأستضافة</h5>
+
+							<ul class="footer-menu-ul">
+
+								<li> <a href="#"> من نحن </a></li>
+								<li> <a href="#"> مدونتنا </a></li>
+								<li> <a href="#"> شركاؤنا </a></li>
+								<li> <a href="#"> اهدافنا </a></li>
+								<li> <a href="#"> منصاتنا </a></li>
+
+
+							</ul>
+
+						</div>
+
+
+					</div>
+
+
+					<div class="col-md">
+
+						<div class="footer-menu">
+
+							<h5> مميزاتنا</h5>
+
+							<ul class="footer-menu-ul">
+
+								<li> <a href="#"> برنامج محاسبة مالية </a></li>
+								<li> <a href="#">نظام ادارة الاصول الثابتة </a></li>
+								<li> <a href="#"> برنامج إدارة المخزون </a></li>
+								<li> <a href="#"> نظام إدارة نقاط البيع </a></li>
+								<li> <a href="#"> امتلاك متجر وتطبيق </a></li>
+							</ul>
+
+						</div>
+
+
+					</div>
+					<div class="col-md">
+
+						<div class="footer-menu">
+
+							<h5> عام</h5>
+
+							<ul class="footer-menu-ul">
+
+								<li> <a href="#"> الأسئلة المتكررة </a></li>
+								<li> <a href="#"> انضم لنا </a></li>
+								<li> <a href="#"> شروط الاستخدام </a></li>
+								<li> <a href="#"> سياسة الخصوصية </a></li>
+
+
+							</ul>
+
+						</div>
+
+
+					</div>
+					<div class="col-md">
+
+						<div class="footer-menu">
+
+							<h5> خدماتنا</h5>
+
+							<ul class="footer-menu-ul">
+
+								<li> <a href="#"> الشحن و التوصيل </a></li>
+								<li> <a href="#"> الدفع الالكتروني </a></li>
+								<li> <a href="#"> الدفع الالكتروني </a></li>
+								<li> <a href="#"> تسويق </a></li>
+								<li> <a href="#"> دعم فني </a></li>
+								<li> <a href="#"> إنضم لنا </a></li>
+							</ul>
+
+						</div>
+
+
+					</div>
+					<div class="col-md">
+
+						<div class="footer-menu">
+
+							<h5> اتصل بنا</h5>
+
+							<ul class="footer-menu-ul mb-0">
+
+								<li> <a href="#"> البريد الإلكتروني </a></li>
+								<li> <a href="#">رقم الهاتف : 013600000 </a></li>
+
+
+								<li>
+
+
+									<span style="
+							 color: #F5911E;
+							 margin-top: 10px;
+							 font-size: 1.5rem;
+							 display: inline-block;
+							 margin-bottom: 15px;
+							 transition: 0.7s ease;
+							 font-weight: bold;
+							 font-family: '29lt_bukrabold_italic';
+
+							 ">
+
+										القوانين
+
+									</span>
+
+
+								</li>
+
+
+
+
+
+								<li> <a href="#"> سياسة الخصوصية </a></li>
+								<li> <a href="#"> شروط الخدمة </a></li>
+
+
+							</ul>
+
+						</div>
+
+
+					</div>
+
+
+
+
+
+				</div>
+
+
+
+
+				<div class="row mt-4">
+					<div class="col-12">
+
+						<div class="Social-media d-flex flex-row align-items-center justify-content-center">
+
+							<span
+								style="margin-left: 20px;color:#F5911E ;font-weight: bold;font-family: '29lt_bukrabold_italic';">تابعنا</span>
+
+
+
+							<span><a href="#"> <img src="img/social-1.svg"> </a> </span>
+							<span><a href="#"> <img src="img/social-2.svg"> </a> </span>
+							<span> <a href="#"> <img src="img/social-3.svg"> </a> </span>
+							<span> <a href="#"> <img src="img/social-4.svg"> </a> </span>
+							<span> <a href="#"> <img src="img/social-5.svg"> </a> </span>
+							<span> <a href="#"> <img src="img/soicial%20-6.svg"> </a> </span>
+							<span> <a href="#"> <img src="img/social-7.svg"> </a> </span>
+							<span> <a href="#"> <img src="img/social-8.svg"> </a> </span>
+
+
+
+
+						</div>
+
+						<div class="d-flex flex-row align-items-center justify-content-center mt-4">
+
+							<p style="color: #fff;font-size: 12px;text-align: center">
+
+
+								الدليل العالمي | خريطه الموقع | شروط الخدمة | الخصوصيه <br> جميع الحقوق للإبداع للإدارة
+								السحابية محفوظة 2020 &reg;
+
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+
+				<div class="banner-5"></div>
+				<a class="back-to-top" href="#">
+					<svg class="crumina-icon">
+						<use xlink:href="#icon-to-top"></use>
+					</svg>
+				</a>
+
+
+			</div>
+
+		</footer>
+
+	<!-- ... end Footer -->
+
+
+    <!-- strat tool-bar -->
+
+    <div class="tool-bar">
+
+        <div class="tool">
+
+            <a href="#">
+
+
+                <div class="tool-icon">
+
+
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M506.555,208.064L263.859,30.367c-4.68-3.426-11.038-3.426-15.716,0L5.445,208.064
+		                     	c-5.928,4.341-7.216,12.665-2.875,18.593s12.666,7.214,18.593,2.875L256,57.588l234.837,171.943c2.368,1.735,5.12,2.57,7.848,2.57
+			                    c4.096,0,8.138-1.885,10.744-5.445C513.771,220.729,512.483,212.405,506.555,208.064z" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M442.246,232.543c-7.346,0-13.303,5.956-13.303,13.303v211.749H322.521V342.009c0-36.68-29.842-66.52-66.52-66.52
+								s-66.52,29.842-66.52,66.52v115.587H83.058V245.847c0-7.347-5.957-13.303-13.303-13.303s-13.303,5.956-13.303,13.303v225.053
+								c0,7.347,5.957,13.303,13.303,13.303h133.029c6.996,0,12.721-5.405,13.251-12.267c0.032-0.311,0.052-0.651,0.052-1.036v-128.89
+								c0-22.009,17.905-39.914,39.914-39.914s39.914,17.906,39.914,39.914v128.89c0,0.383,0.02,0.717,0.052,1.024
+								c0.524,6.867,6.251,12.279,13.251,12.279h133.029c7.347,0,13.303-5.956,13.303-13.303V245.847
+								C455.549,238.499,449.593,232.543,442.246,232.543z" />
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                    </svg>
+
+                </div>
+
+                <span class="d-block">
+
+                    الرئيسية
+
+                </span>
+
+            </a>
+
+
+
+        </div>
+
+        <div class="tool" data-toggle="modal" data-target="#popupSearch">
+
+            <a href="#">
+
+
+                <div class="tool-icon">
+
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
+                        <g>
+                            <path
+                                d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z" />
+                        </g>
+                    </svg>
+
+
+                </div>
+
+                <span class="d-block">
+
+                    بحث
+
+                </span>
+
+            </a>
+
+
+
+        </div>
+
+        <div class="tool">
+
+            <a href="#">
+
+
+                <div class="tool-icon">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.47 43.55">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #333;
+                                }
+                            </style>
+                        </defs>
+                        <title>cart</title>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="cls-1"
+                                    d="M38,34.94H20.87a18.1,18.1,0,0,1,2.18,3.52,3.67,3.67,0,0,1-1.31,4,4.33,4.33,0,0,1-6.19-.38c-1.85-2.16-1.26-4.82,1.73-7.12-2.78.11-4.91-.74-5.58-3.52-.52-2.15.51-3.74,2.43-5q-1.24-5.6-2.48-11.26C10.85,11.55,10,7.91,9.29,4.25c-.21-1-.57-1.47-1.71-1.4-1.93.11-3.87,0-5.81,0C.76,2.89,0,2.55,0,1.43S.81,0,1.81,0C4.44,0,7.07,0,9.7,0a1.71,1.71,0,0,1,1.93,1.54c.21,1,.56,2.06.69,3.1s.63,1.21,1.57,1.2c8,0,16.05,0,24.07,0,3.18,0,6.37,0,9.55,0,1.72,0,2.26.72,1.8,2.34-1.8,6.38-3.65,12.75-5.42,19.14a2.18,2.18,0,0,1-2.49,1.8c-8.12,0-16.24,0-24.36,0-.37,0-.83-.14-1.08,0-.54.37-1.24.83-1.38,1.38-.2.8.43,1.35,1.31,1.42.36,0,.74,0,1.1,0H41.21c.41,0,.94-.14,1.22.06.5.37,1.18,1,1.18,1.43s-.68,1.06-1.2,1.41a1.83,1.83,0,0,1-1,.08,18.46,18.46,0,0,1,2.2,3.54,3.69,3.69,0,0,1-1.33,4,4.32,4.32,0,0,1-6.35-.6C34.21,39.55,34.93,36.91,38,34.94ZM13.25,8.76c1.24,5.62,2.46,11.1,3.65,16.58.18.84.72.79,1.34.79,7.29,0,14.58,0,21.87,0,.88,0,1.17-.33,1.39-1.11C42.91,20,44.37,15,45.81,9.9A10.28,10.28,0,0,0,46,8.76Zm7.22,30.73v-.63c-.54-.36-1.06-1-1.63-1a1.17,1.17,0,0,0-1.35,1.47,2.09,2.09,0,0,0,1.43,1.26C19.4,40.6,20,39.87,20.47,39.49ZM41,39.56V39c-.53-.39-1-1-1.59-1.12A1.2,1.2,0,0,0,38,39.24a2.06,2.06,0,0,0,1.39,1.33C39.86,40.63,40.44,39.93,41,39.56Z" />
+                            </g>
+                        </g>
+                    </svg>
+
+                </div>
+
+                <span class="d-block">
+
+                    العربه
+
+                </span>
+
+            </a>
+
+
+
+        </div>
+
+        <div class="tool" data-toggle="modal" data-target="#userMenuPopup">
+
+            <a href="#">
+
+
+                <div class="tool-icon">
+
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M437.02,330.98c-27.883-27.882-61.071-48.523-97.281-61.018C378.521,243.251,404,198.548,404,148
+			                    C404,66.393,337.607,0,256,0S108,66.393,108,148c0,50.548,25.479,95.251,64.262,121.962
+		                     	c-36.21,12.495-69.398,33.136-97.281,61.018C26.629,379.333,0,443.62,0,512h40c0-119.103,96.897-216,216-216s216,96.897,216,216
+		                    	h40C512,443.62,485.371,379.333,437.02,330.98z M256,256c-59.551,0-108-48.448-108-108S196.449,40,256,40
+			                    c59.551,0,108,48.448,108,108S315.551,256,256,256z" />
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                    </svg>
+
+
+                </div>
+
+                <span class="d-block">
+
+                    حسابي
+
+                </span>
+
+            </a>
+
+
+
+        </div>
+
+
+
+
+    </div>
+	
+	 <!-- ... end tool-bar -->
+	
+	<!-- start modals -->
+	<div class="more-advantage-pop-up more-advantage-1">
+		
+		
+			
+			
+					
+					<div class="fusion-modal-table">
+		
+						<h5 class="more-advantage-title">المزايا الفرعية</h5>
+						<table class="more-advantage-table">
+						
+								<thead class="text-right">
+								<tr>
+									<th>
+									
+										<P>الميزة الفرعية</P>
+									
+									</th>
+									<th>
+									
+										<P>الميديم</P>
+									
+									</th>
+									<th>
+									
+										<P> كلاس   </P>
+									
+									</th>
+									<th>
+									
+										<P>برو</P>
+									
+									</th>
+									<th>
+									
+										<P> بريميوم    </P>
+									
+									</th>
+									
+								</tr>
+								
+								</thead>
+								
+								<tbody class="more-advantage-table-body">
+								
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+							
+							
+							</tbody>
+							
+						
+						
+						</table>
+						<span class="close-fusion-modal">x</span>
+					</div>
+				
+				</div>		
+	
+		
+	
+	<div class="more-advantage-pop-up more-advantage-2">
+		
+		<div class="container">
+		
+			<div class="row">
+			
+			
+				<div class="col-12">
+					
+					<div class="fusion-modal-table">
+		
+						<h5 class="more-advantage-title">المزايا الفرعية</h5>
+						<table class="more-advantage-table">
+						
+								<thead class="text-right">
+								<tr>
+									<th>
+									
+										<P>الميزة الفرعية</P>
+									
+									</th>
+									<th>
+									
+										<P>الميديم</P>
+									
+									</th>
+									<th>
+									
+										<P> كلاس   </P>
+									
+									</th>
+									<th>
+									
+										<P>برو</P>
+									
+									</th>
+									<th>
+									
+										<P> بريميوم    </P>
+									
+									</th>
+									
+								</tr>
+								
+								</thead>
+								
+								<tbody class="more-advantage-table-body">
+								
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								<tr>
+								
+									<td>
+									
+										<p class="mb-0">مزايا أرشفة المستندات </p>
+									
+									</td>
+									<td>
+										<i class="fas fa-check true"></i>
+									</td>
+									<td>
+									
+										<i class="fas fa-check true"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+									<td>
+									
+										<i class="fas fa-times false" style="color: #E71C24"></i>
+									
+									</td>
+								
+								
+								</tr>
+								
+							
+							</tbody>
+							
+						
+						
+						</table>
+						<span class="close-fusion-modal">x</span>
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+	
+		
+	
+	</div>
+	<!-- ... end modals -->
+	
+
+
+		<!-- Modal -->
+		<div class="modal fade more-advantage-model" id="more-advantage-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow: auto">
+		  <div class="modal-dialog  modal-xl">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				  
+				  	<h5 class="more-advantage-title">المزايا الفرعية</h5>		
+					<table class="more-advantage-table">
+
+										<thead class="text-right">
+										<tr>
+											<th>
+
+												<P>الميزة الفرعية</P>
+
+											</th>
+											<th>
+
+												<P>الميديم</P>
+
+											</th>
+											<th>
+
+												<P> كلاس   </P>
+
+											</th>
+											<th>
+
+												<P>برو</P>
+
+											</th>
+											<th>
+
+												<P> بريميوم    </P>
+
+											</th>
+
+										</tr>
+
+										</thead>
+
+										<tbody class="more-advantage-table-body">
+
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+
+
+									</tbody>
+
+
+
+						
+				  
+				  	</table>
+
+
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade more-advantage-model" id="more-advantage-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow: auto">
+		  <div class="modal-dialog  modal-xl">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				  
+				  	<h5 class="more-advantage-title">المزايا الفرعية</h5>
+					<table class="more-advantage-table">
+
+										<thead class="text-right">
+										<tr>
+											<th>
+
+												<P>الميزة الفرعية</P>
+
+											</th>
+											<th>
+
+												<P>الميديم</P>
+
+											</th>
+											<th>
+
+												<P> كلاس   </P>
+
+											</th>
+											<th>
+
+												<P>برو</P>
+
+											</th>
+											<th>
+
+												<P> بريميوم    </P>
+
+											</th>
+
+										</tr>
+
+										</thead>
+
+										<tbody class="more-advantage-table-body">
+
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+										<tr>
+
+											<td>
+
+												<p class="mb-0">مزايا أرشفة المستندات </p>
+
+											</td>
+											<td>
+												<i class="fas fa-check true"></i>
+											</td>
+											<td>
+
+												<i class="fas fa-check true"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+											<td>
+
+												<i class="fas fa-times false" style="color: #E71C24"></i>
+
+											</td>
+
+
+										</tr>
+
+
+									</tbody>
+
+
+
+						
+				  
+				  				</table>
+
+
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+		<!-- Modal -->
+
+	 
+<script src="js/jquery.min.js"></script>
+
+<script src="js/Bootstrap/bootstrap.bundle.min.js"></script>
+
+<script src="js/js-plugins/navigation.min.js"></script>
+<!--<script src="js/js-plugins/select2.min.js"></script>-->
+<script src="js/js-plugins/material.min.js"></script>
+<script src="js/js-plugins/swiper.min.js"></script>
+<!--<script src="js/js-plugins/jquery-countTo.min.js"></script>-->
+<!--<script src="js/js-plugins/waypoints.min.js"></script>-->
+<!--<script src="js/js-plugins/leaflet.min.js"></script>-->
+<!--<script src="js/js-plugins/MarkerClusterGroup.min.js"></script>-->
+<!--<script src="js/js-plugins/jquery.magnific-popup.min.js"></script>-->
+<!--<script src="js/js-plugins/TimeCircles.min.js"></script>-->
+<script src="js/js-plugins/smooth-scroll.min.js"></script>
+<script src="js/js-plugins/jquery.matchHeight.min.js"></script>
+<script src="js/js-plugins/imagesLoaded.min.js"></script>
+<!--<script src="js/js-plugins/isotope.pkgd.min.js"></script>-->
+<!--<script src="js/js-plugins/ajax-pagination.min.js"></script>-->
+<!--<script src="js/js-plugins/Chart.min.js"></script>-->
+<!--<script src="js/js-plugins/chartjs-plugin-deferred.min.js"></script>-->
+
+	
+<script src="js/main.js"></script>
+<!--<script src="js/js-plugins/leaflet-init.js"></script>-->
+
+<!-- jQuery-scripts for Modules (Send Message) -->
+<!--<script src="modules/forms/src/js/jquery.validate.min.js"></script>-->
+<!--<script src="modules/forms/src/js/sweetalert2.all.js"></script>-->
+<!--<script src="modules/forms/src/js/scripts.js"></script>-->
+
+<!-- SVG icons loader -->
+<script src="js/svg-loader.js"></script>
+<!-- /SVG icons loader -->
+
+
+<!-- اسكربت التعديلات -->
+	
+<script src="js/slick.min.js"></script>
+<script src="js/STYLE.JS"></script>
+<script src="js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+	
+<!-- اسكربت التعديلات -->
+	
+	
+	<script>
+	
+		$(window).scroll(function(){
+		
+		
+		if($(window).scrollTop() >= $('.packages-advantage-title').offset().top){
+			
+			
+			$('.fixed-scroll-head').css("display" , "block")
+		}else{
+			
+			$('.fixed-scroll-head').css("display" , "none");
+		}
+		
+		if ($(window).scrollTop() >= $('.main-body tr:nth-last-child(3)').offset().top){
+			$('.fixed-scroll-head').css("display" , "none");
+		}
+		
+		
+	});
+	
+	</script>
+
+</body>
+
+</html>
