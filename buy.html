@@ -85,7 +85,7 @@
 
     <!-- Main Header -->
 
-    <nav id="navigation" class="site-header navigation navigation-justified header--sticky" style="direction: rtl">
+    <nav id="navigation" class="site-header show navigation navigation-justified header--sticky" style="direction: rtl">
         <div class="container">
             <div class="navigation-header">
 
@@ -588,25 +588,7 @@
     <div class="main-content-wrapper">
 		
 	
-	<div class="agreement-bg" style="background-image: url(img/question-mark-wooden-cube-computer-keyboard-with-blurred-background-shallow-depth-field-2.jpg)"></div>
-		
-		<nav aria-label="breadcrumb">
-  				<ul class="breadcrumb">
-    				<li class="breadcrumb-item">
-						
-						<a href="index.html">
-						
-							<img class="ml-2" src="img/Asset%206.svg">
-							الرئيسية 
-						
-						
-						</a>
-					
-					</li>
-					<li class="breadcrumb-item" aria-current="page">  > الدفع </li>
-  				</ul>
-			</nav>
-		    
+	  
 		<section class="payment-steps">
 		
 			<div class="container">
@@ -882,71 +864,75 @@
 								</div>
 						
 							<div class="payment-details">
-						
-							<div class="payment-inputs">
-							
-								<div class="inputs-label">
+							<form action="#" method="get" id="paymentForm">
 								
-									<label for="payment-slectbox-1"> تأكيد الباقة </label>
-								</div>
-								<div class="payment-input">
-								
-									<select id="payment-slectbox-1">
-									
-											<option selected>الميديم</option>
-											<option value="1">كلاس</option>
-											<option value="2">برو</option>
-											<option value="3">بريميوم</option>
-										
-									</select>
-								 <span class="icon_arrow"><i class="fas fa-chevron-down"></i></span>
-								</div>
+								<div class="payment-inputs">
 
-							</div>
-							<div class="payment-inputs">
-							
-								<div class="inputs-label">
-								
-									<label for="payment-slectbox-1"> فضلاً إختر مدة الإشتراك </label>
-								</div>
-								<div class="payment-input">
-								
-									<select id="payment-slectbox-1">
-									
-											<option selected>لمده سنه</option>
-											<option value="1">لمده شهر</option>
-											<option value="2">لمده اسبوع</option>
-										
-									</select>
-									
-								 <span class="icon_arrow"><i class="fas fa-chevron-down"></i></span>
-								</div>
+									<div class="inputs-label">
 
-							</div>
-						    <div class="payment-inputs mb-0 d-block">
-							
-								<div class="inputs-label d-block">
-								
-									<label class="mb-2" for="payment-slectbox-1"> هل تحتاج أي من الخدمات الإضافية أدناة ؟ اضف  ما تريد</label>
-								</div>
-								
-								<form class="payment-form" action="#">
-								<div class="payment-input">
-								
-									<select id="payment-slectbox-1">
-									
-											<option selected>عدد الموظفين</option>
-											<option value="1">عدد الشركات</option>
-											<option value="2">عدد المستخدمين</option>
-										
-									</select>
-								 	<span class="icon_arrow"><i class="fas fa-chevron-down"></i></span>
-								</div>
+										<label for="payment-slectbox-1"> تأكيد الباقة </label>
+									</div>
+									<div class="payment-input">
 
-								  <button type="submit">أضف خدمة</button>
-								</form>
-							</div>
-						
+										<select id="payment-slectbox-1">
+
+												<option selected>الميديم</option>
+												<option value="1">كلاس</option>
+												<option value="2">برو</option>
+												<option value="3">بريميوم</option>
+
+										</select>
+									 <span class="icon_arrow"><i class="fas fa-chevron-down"></i></span>
+									</div>
+
+</div>
+								<div class="payment-inputs">
+
+									<div class="inputs-label">
+
+										<label for="payment-slectbox-2"> فضلاً إختر مدة الإشتراك </label>
+									</div>
+									<div class="payment-input">
+
+										<select id="payment-slectbox-2">
+
+												<option selected>لمده سنه</option>
+												<option value="1">لمده شهر</option>
+												<option value="2">لمده اسبوع</option>
+
+										</select>
+
+									 <span class="icon_arrow"><i class="fas fa-chevron-down"></i></span>
+									</div>
+
+</div>
+								<div class="payment-inputs mb-0 d-block">
+
+									<div class="inputs-label d-block">
+
+										<label class="mb-2" for="payment-slectbox-1"> هل تحتاج أي من الخدمات الإضافية أدناة ؟ اضف  ما تريد</label>
+					
+									</div>
+
+									<div class="payment-more">
+									<div class="payment-input">
+
+										<select id="payment-slectbox-3">
+
+												<option selected>عدد الموظفين</option>
+												<option value="1">عدد الشركات</option>
+												<option value="2">عدد المستخدمين</option>
+
+										</select>
+										<span class="icon_arrow"><i class="fas fa-chevron-down"></i></span>
+									</div>
+
+									  <button type="submit">أضف خدمة</button>
+									</div>
+
+								</div>
+								
+							</form>
 						</div>
 					
 							
@@ -962,6 +948,54 @@
 		
 		</section>
 		
+		 <section class="payment-ways">
+
+            <div class="container">
+
+                <div class="row" style="background-color: #fff">
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-1.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-2.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-3.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment_2.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment_4.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-4.svg">
+                    </div>
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-5.svg">
+                    </div>
+
+                    <div class="col-6 col-md d-flex d-flex align-items-center justify-content-center ">
+                        <img class="img-fluid" src="img/payment-8.svg">
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </section>
 		
 		
     </div>
@@ -1438,7 +1472,15 @@
 <script src="js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+<script>
+
+$(function (){
 	
+	$('body').css('paddingTop' , $('.site-header').innerHeight());	
+})
+
+	
+</script>
 <!-- اسكربت التعديلات -->
 
 </body>

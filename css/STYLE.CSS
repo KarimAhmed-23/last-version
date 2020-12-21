@@ -3454,23 +3454,23 @@ footer {
 }
 
 
-.payment-inputs .payment-form{
+.payment-inputs .payment-more{
 	
 	display: flex;
 	align-items: center;
 	justify-content: space-between
 }
 
-.payment-inputs .payment-form .payment-input {
+.payment-inputs .payment-more .payment-input {
 	
 	width: 80%
 }
-.payment-inputs .payment-form .payment-input .icon_arrow  {
+.payment-inputs .payment-more .payment-input .icon_arrow  {
 	
 	border-radius: 0px;
 }
 
-.payment-inputs .payment-form button{
+.payment-inputs .payment-more button{
 	
 	width: 20%;
 	height: 45px;
@@ -3566,7 +3566,7 @@ footer {
 		padding: 20px;
 	}
 	
-	.payment-inputs .payment-form button{
+	.payment-inputs .payment-more button{
 		
 		font-size: 14px;
 		width: 22%
@@ -3582,7 +3582,7 @@ footer {
 		width: 300px
 	}
 	
-	.payment-inputs .payment-form button{
+	.payment-inputs .payment-more button{
 		
 		font-size: 12px;
 		width: 26%
@@ -6081,8 +6081,14 @@ footer {
     overflow: auto;
 
 }*/
+
+
+
+
 .iti__flag {background-image: url("path/to/flags.png");}
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {background-image: url("path/to/flags@2x.png");}
 }
+
+  
