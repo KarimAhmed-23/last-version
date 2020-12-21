@@ -143,7 +143,7 @@
 
 .navigation-link {
   font-family: '29lt_bukrabold_italic';
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500
 }
 
@@ -244,11 +244,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   cursor: pointer;
-  font-size: 19px;
   font-weight: 500;
   position: relative
+}
+
+.language .theme-lang {
+	
+	color: #fff;
+	text-decoration: none;
+	 font-family: '29lt_bukrabold_italic';
+	position: relative;
+	padding-right: .5rem;
+}
+
+.language .theme-lang::after{
+	
+	content: '';
+	position: absolute;
+	background-color: #fff;
+	height: 25px;
+	width: 2px;
+	right: 0px;
+	
 }
 
 .dropdown-conutry {
@@ -478,33 +496,33 @@
 	background-color: #fff
   }
 
-  .navigation-logo .login-link a ,
-	.navigation-logo .login-links a{
+  .navigation-logo .login-link .signIn-btn a  ,
+	.navigation-logo .login-link .user_login a{
 
     display: inline-block;
     align-items: center;
     background-color: #fff;
     color: var(--clr-1);
-    font-family: 'Tajawal';
+    font-family: '29LT Bukra';
     margin-bottom: 0;
     font-weight: 500;
     text-align: center;
     cursor: pointer;
     padding: 2px 12px;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 99px;
 	  margin-top:12px;
-		line-height: 1.8;
+	line-height: 1.8;
 
   }
 	
-	.navigation-logo .login-links a{
+	.navigation-logo .login-link  .user_login a{
 		
-		width: 110px;
-		font-size: 13px;
+		width: 115px;
+		font-size: 12px;
 	}
 	
-	.navigation-logo .login-links .log-out{
+	.navigation-logo .login-link  .user_login .log-out{
 		
 		background: #f55157;
     	color: #fff
@@ -523,8 +541,8 @@
   }
 
   .navigation-link {
-    font-family: 'Tajawal';
-    font-size: 15px;
+    font-family: '29lt_bukrabold_italic';
+    font-size: 12px;
     font-weight: 500;
 	border-color: #eee;
 	opacity: 1 !important;
@@ -561,6 +579,13 @@
   .navigation-hosting-item-img {
     margin-left: 15px !important
   }
+	
+	.navigation-hosting-item-img{
+		
+		width: 70px;
+		height: 70px;
+	}
+
 
   .navigation-hosting-item-img {
     margin-right: 0px !important
@@ -604,6 +629,18 @@
 	}
 
 }
+@media (min-width:992px){
+	
+	.navigation-hosting-item-img{
+		
+		height: 120px
+	}
+	
+	.navigation-header{
+		display: none
+	}
+
+}
 
 .navigation-additional-menu>* {
   margin-left: 30px !important;
@@ -612,10 +649,10 @@
 
 
 .navigation-hosting-item {
-  font-family: 'Tajawal';
-  font-size: 15px;
+    font-family: '29LT Bukra';
+  font-size: 14px;
   font-weight: 400;
-	color: #636362  ;
+	color: #1A233A  ;
 }
 
 
@@ -787,6 +824,14 @@
   color: #1A233A
 }
 
+@media(max-width:992px){
+	
+	.slides-item .slides-item-text{
+		
+		font-size: 12px;
+	}
+}
+
 .slides-item.swiper-slide-active .slides-item-text,
 .slides-item:hover .slides-item-text {
   color: #1A233A;
@@ -842,7 +887,7 @@
 @media (min-width: 992px) and (max-width:1200px) {
 
   .navigation-link {
-    padding: 20px 7px;
+    padding: 20px 6px;
     font-size: 10px
   }
 
@@ -5523,18 +5568,62 @@ footer {
 	height: 100vh;
 	position: relative
 }
-.login-reg-page-container {
-    height: 100vh;
-}
-.content-wrapper{
-	
-	padding: 1.5rem 0;
-}
 .preview-column{
 	
 		background-color: #1A233A;
+		position: relative
 
 }
+.content-wrapper{
+	
+	padding: 1rem 0;
+	position: relative
+}
+.login-reg-page-container {
+    height: 100vh;
+}
+
+.lang-dropdown {
+	
+	max-width: 85px;
+	position: relative;
+	right: 20px;
+}
+.preview-column .lang-dropdown {
+	
+	top: 1rem;
+}
+ .lang-dropdown .dropdown .dropdown-toggle{
+	
+	color: #fff;
+	background-color: #E48F2E;
+	border-color: #E48F2E;
+	display: flex;
+	align-items: center;
+	direction: ltr;
+	border-radius: 7px;
+	padding: 0.2rem 0.5rem;
+	font-family: 'Tajawal';
+	font-size: 14px;
+}
+
+.lang-dropdown .dropdown .ripple-container{
+	
+	display: none;
+}
+.lang-dropdown .dropdown .dropdown-menu{
+	
+		font-family: 'Tajawal';
+		background-color: #272E48;
+		left: -20px !important;
+
+}
+ .lang-dropdown .dropdown .dropdown-item{
+	
+	text-align: right;
+	color: #9D9FA2;
+}
+
 .website-logo{
 	
 	margin: 0px auto 10px;
@@ -5589,13 +5678,46 @@ footer {
 
 }
 
-.signCard_header .card_title h5 {
+.signCard_header .card_title h5 ,
+.signCard_header .card_title #typed,
+.signCard_header .card_title .typed-cursor{
 	
 	    font-family: 'Effra';
 		color: #9D9FA2;
 		margin-bottom: 0px;
+		text-align: center;
+		font-size: 1.5rem;
 	
 }
+.signCard_header .card_title .typed-cursor{
+	font-size: 1rem;
+}
+
+@media (min-width:992px) and (max-width:1200px){
+	
+	.signCard_header .card_title #typed{
+		
+			font-size: 20px;
+	}
+}
+@media (max-width:480px){
+	
+ 
+	.signCard_header .card_title #typed,
+	{
+		
+		font-size: 22px;
+		
+	}
+	.signCard_header .card_title{
+		
+		height: 52px;
+	}
+	.website-logo{
+		margin: 10px auto ;
+	}
+}
+
 .signCard_header .divider {
 	text-align: center;
     overflow: hidden;

@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cairo'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Tajawal'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw==" crossorigin="anonymous" /> 
+	<link rel="stylesheet" href="css/intlTelInput.css">
 	<link rel="stylesheet" href="css/fonts/stylesheet.css">
 	
     <!-- اسكربت التعديلات-->
@@ -97,6 +97,23 @@
 				<div class="col-12 col-lg-6 preview-column ">
 						
 					<div class="content-wrapper">
+						
+						<div class="lang-dropdown">
+						<div class="dropdown">
+							
+  						<a class="btn btn-warning dropdown-toggle" href="#" role="button" id="langDropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							أختر اللغة
+  							</a>
+
+  					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						
+						<a class="dropdown-item" href="#">عربي</a>
+    					<a class="dropdown-item" href="#">English</a>
+						
+  					</div>
+						</div>
+						</div>
+						
 						<div class="website-logo">
 							<a href="index.html">
 							<img class="img-fluid" src="img/sign-logo.svg">
@@ -108,7 +125,11 @@
 							
 								<div class="card_title text-center">
 								
-									<h5>خطوة واحدة تفصلك عن الإدارة الإحترافية</h5>
+									<div id="typed-strings">
+  										<p>خطوة واحدة تفصلك عن الإدارة الإحترافية</p>
+  										<p>خطوة واحدة تفصلك عن الإدارة الإحترافية</p>
+										</div>
+										<span id="typed"></span>
 								</div>
 								<div class="divider">
 								
@@ -211,7 +232,7 @@
 														 <label class="formCheck-label" for="check-condition">أنا اوافق على سياسة الخصوصية و شروط الإستخدام .</label>
     														
   													</div>
-													<button type="submit" class="btn btn-light-primary btn-block position-relative submit-btn" id="">
+													<button type="submit" class="btn btn-light-primary btn-block position-relative submit-btn mt-2" id="">
                                                         تسجيل
                                                     </button>
 											
@@ -407,8 +428,8 @@
 <script src="js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput-jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
+<script src="js/js-plugins/intlTelInput-jquery.min.js"></script>
+<script src="js/js-plugins/utils.js"></script>
 <script>
 	
 		$("#phone").intlTelInput({
@@ -422,7 +443,7 @@
       	formatOnDisplay: true,
 	 	geoIpLookup: function(callback) {
          $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-           var countryCode = (resp && resp.country) ? resp.country : "";
+           var countryCode = (resp && resp.country) ? resp.country : "us";
            callback(countryCode);
          });
   },
@@ -438,6 +459,21 @@
 	
 	});
 	
+</script>
+	
+ <script src="js/js-plugins/typed.min.js"></script>
+<script>
+	
+	var typed = new Typed('#typed', {
+  	 stringsElement: '#typed-strings',
+		startDelay: 200,
+		typeSpeed:50,
+		backSpeed:50,
+		backDelay: 1000,
+		loop:true,
+		cursorChar: ' |',
+		smartBackspace: true,
+	});
 </script>
 <script src="js/STYLE.JS"></script>
 <!-- اسكربت التعديلات -->

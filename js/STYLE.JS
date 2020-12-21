@@ -14,7 +14,7 @@ $(window).on("load", function () {
 
 $(document).ready(function () {
 
-  $(".language").click(function () {
+  $(".conutry-flag").click(function () {
 
     $(".dropdown-conutry").slideToggle();
 
